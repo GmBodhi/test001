@@ -1,3 +1,2 @@
 tensorflow
 matplotlib
-PIL
