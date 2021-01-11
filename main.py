@@ -23,7 +23,13 @@ Samkhya.add(Dense(10, activation='softmax',name='D1'))
 
 Samkhya.compile(optimizer='sgd', loss='mse', metrics=['accuracy'])
 
-print(Samkhya.summary())
+print("
+<html>
+<body>
+   <p>Samkhya.summary()</p>
+</body>
+</html>
+")
 
 TrainingLog=Samkhya.fit(TrainIn, TrainOut,epochs=6,validation_split=0.1)
 
